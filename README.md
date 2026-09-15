@@ -41,25 +41,25 @@ const pedro = {
 ### Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,java,html,css" />
+  <img src="https://skillicons.dev/icons?i=js,ts,java,rust" />
 </p>
 
 ### Frontend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,vue,vite,tailwind,bootstrap" />
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,bootstrap" />
 </p>
 
 ### Backend & Database
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mysql,supabase" />
+  <img src="https://skillicons.dev/icons?i=nodejs,spring,postgres,mysql,supabase" />
 </p>
 
 ### Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman" />
+  <img src="https://skillicons.dev/icons?i=git,postman,linux" />
 </p>
 
 ---
@@ -68,9 +68,12 @@ const pedro = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pemvdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pemvdev&theme=github_dark" width="98%" alt="GitHub profile details"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pemvdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pemvdev&theme=github_dark" width="48%" alt="GitHub stats"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=pemvdev&theme=github_dark" width="48%" alt="Most used languages"/>
 
 </div>
 
@@ -80,7 +83,7 @@ const pedro = {
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=pemvdev&theme=tokyonight&hide_border=true&background=0D1117" />
+<img src="https://streak-stats.demolab.com?user=pemvdev&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub contribution streak"/>
 
 </div>
 
@@ -90,7 +93,21 @@ const pedro = {
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/pemvdev/pemvdev/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/pemvdev/pemvdev/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/pemvdev/pemvdev/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    src="https://raw.githubusercontent.com/pemvdev/pemvdev/output/github-contribution-grid-snake.svg"
+    width="100%"
+    alt="GitHub contribution snake"
+  />
+</picture>
 
 </div>
 
