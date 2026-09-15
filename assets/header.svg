@@ -1,0 +1,61 @@
+<svg width="900" height="140" viewBox="0 0 900 140"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="shine" x1="-100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="40%" stop-color="#A371F7"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#A371F7"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+
+      <animate
+        attributeName="x1"
+        values="-100%;100%"
+        dur="3s"
+        repeatCount="indefinite"
+      />
+
+      <animate
+        attributeName="x2"
+        values="0%;200%"
+        dur="3s"
+        repeatCount="indefinite"
+      />
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <text
+    x="50%"
+    y="65"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="42"
+    font-weight="700"
+    fill="url(#shine)"
+    filter="url(#glow)">
+    Hey, I'm Pedro Valim
+  </text>
+
+  <text
+    x="50%"
+    y="110"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18"
+    fill="#8B949E">
+    Software Developer • Always Learning • Always Building
+  </text>
+
+</svg>
